@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -23,6 +24,17 @@ namespace HW_Containers__part_2_
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ButtonWithPopup_Click(object sender, RoutedEventArgs e)
+        {
+            //Button button = (Button)sender;
+            //Popup popup = (Popup)button.DataContext;
+        }
+
+        private void ClosePopup_Click(object sender, RoutedEventArgs e)
+        {
+            //popup.IsOpen = false;
         }
     }
 }
